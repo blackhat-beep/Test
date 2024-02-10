@@ -1,0 +1,217 @@
+#title1 {
+  padding-top: 50px;
+  color: black;  /* Change to your preferred color */
+  font-size: 2em;
+  text-align: left;
+}
+
+#title2 {
+  padding-bottom: 50px;
+  color: white;  /* Change to your preferred color */
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#title3 {
+  padding-top: 100;
+  padding-bottom: 100;
+  color: white;  /* Change to your preferred color */
+  font-size: 2em;
+  text-align: center;
+}
+.card {
+  float: left;
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0080FF, #00FF80);
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  margin-left: 250px;
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: white;
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+ .card2 {
+  float: right;
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0080FF, #00FF80);
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  margin-right: 250px;
+ }
+ 
+ .card2-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card2-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text2-body {
+  color: white;
+ }
+ 
+ /*Text*/
+ .text2-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card2:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card2:hover .card2-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0080FF, #00FF80);
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-bottom: 2px solid white;
+}
+
+#navbar button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#home, #portfolio {
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#home img, #portfolio img {
+  margin: 20px auto;
+  display: block;
+  float: right;
+  width: 25%;
+  height: 25%; 
+}
+
+.clear {
+  clear: both;
+}
+
+#portfolio h2 {
+  padding: 50px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+#portfolio button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: 2px solid white;
+}
+
+#portfolio button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.h3 {
+  float: left;
+}
+.h4 {
+  float: right;
+}
